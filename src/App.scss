@@ -1,0 +1,12 @@
+.App {
+  height: 100%;
+  &__navbar-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+.App__main-content-wrapper {
+  height: calc(100% - 80px);
+  margin-top: 80px;
+}

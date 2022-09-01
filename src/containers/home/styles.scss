@@ -1,0 +1,121 @@
+.home {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      color: var(--selected-theme-main-color);
+      margin: 0px;
+      font-weight: 400;
+      font-size: 8rem;
+      line-height: 10rem;
+      position: relative;
+      font-family: "Inconsolata", "Consolas", monospace;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typingEffect 3s steps(30, end);
+    }
+  }
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+    &__a-s-wrapper {
+      display: flex;
+      gap: 10px;
+
+      a,
+      link {
+        cursor: pointer;
+        border: 1.5px solid var(--selected-theme-main-color);
+        color: var(--selected-theme-main-color);
+        font-size: 2rem;
+        font-weight: 500;
+        background: transparent;
+        border-radius: 4px;
+        text-decoration: none;
+        &:hover {
+          background: var(--selected-theme-main-color);
+          color: black;
+        }
+      }
+      .left-a {
+        padding: 10px 40px;
+        span {
+          margin-left: -10px;
+        }
+        img {
+          margin: -4px -23px -6px 4px;
+        }
+      }
+      .right-a {
+        padding: 10px 30px;
+      }
+    }
+    &__social-wrapper {
+      display: flex;
+      margin-top: 6px;
+      gap: 13px;
+      svg {
+        color: var(--selected-theme-main-color);
+        cursor: pointer;
+      }
+    }
+  }
+}
+@keyframes typingEffect {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .home__text-wrapper h1 {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+  .contact-me__a-s-wrapper {
+    span {
+      font-size: 15px;
+    }
+    .left-a {
+      padding: 10px 28px;
+    }
+    .right-a {
+      padding: 10px 20px;
+    }
+  }
+}
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+  .home__text-wrapper h1 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  .contact-me__a-s-wrapper {
+    span {
+      font-size: 15px;
+    }
+    .left-a {
+      padding: 10px 28px;
+    }
+    .right-a {
+      padding: 10px 20px;
+    }
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+  .home__text-wrapper h1 {
+    font-size: 6rem;
+    line-height: 8rem;
+  }
+}
