@@ -1,7 +1,7 @@
 
 # Portfolio
 
-This is the personal portfolio for our video editor Yasser Himeur the founder of [this](https://www.youtube.com/channel/UCepDkbwvmQ8e-4tGUFIYEtQ) ytb channel.
+This is the personal portfolio for our video editor Yasser Himeur the founder of [this ytb channel](https://www.youtube.com/channel/UCepDkbwvmQ8e-4tGUFIYEtQ).
 
 ![screenshot](./src/Home_screenshot.PNG)
 
