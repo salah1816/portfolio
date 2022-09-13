@@ -18,6 +18,6 @@ This is the personal portfolio for our video editor Yasser Himeur the founder of
 
 👤 **Salahim**
 
-- GitHub: [@mirouhml](https://github.com/salah1816)
+- GitHub: [@salah](https://github.com/salah1816)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/salah-himeur-39b22a23b/)
 
